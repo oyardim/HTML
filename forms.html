@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        
+        <label for="name">Enter your First and Last Name</Label>
+        <br>
+        <input type="text" id="name" placeholder="example:Ömer Faruk">
+        <br>
+        <label for="mail">Enter your E-Mail Address</label>
+        <br>
+        <input type="mail" id="mail" placeholder="@gmail.com">
+        <br>
+        <label for="password">Enter your Password</label>
+        <br>
+        <input type="password" id="password">
+        <hr>
+
+        <h4>Choose your gender</h4>
+        Woman
+        <input type="radio" name="gender" id="women">
+        Man
+        <input type="radio" name="gender" id="man">
+        <hr>
+ 
+        <h4>Marital Status</h4>
+        Single
+        <input type="checkbox" name="marital_status" value="single" checked>
+        Married
+        <input type="checkbox" name="marital_status" value="married">
+        Divorced
+        <input type="checkbox" name="marital_status" value="divorced">
+        <hr>
+
+        <h4>Education Status</h4>
+        <select name="education status" id="education status">
+            <option value="High School">High School</option>
+            <option value="Associate Degree">Associate Degree</option>
+            <option value="Licence" selected>Licence</option>
+            <option value="Graduate Degree">Graduate Degree</option>
+        </select>
+        <hr>
+
+        <h4>Contact us</h4>
+        <textarea name="user_requests" cols="20" rows="10" placeholder="Contact us"></textarea>
+        
+
+        <hr> <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
